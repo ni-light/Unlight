@@ -1,0 +1,80 @@
+
+<!-- クライアント用設定ファイル -->
+<XML>
+  <version>multi_servers_111003</version>
+
+  <host>
+    <auth_servers>
+      <set1>
+       <name>localhost</name>
+        <port>12001</port>
+      </set1>
+      <set2>
+        <name>localhost</name>
+        <port>12001</port>
+      </set2>
+    </auth_servers>
+
+    <lobby_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12002</port>
+      <weight>1</weight>
+      </set1>
+    </lobby_servers>
+
+    <data_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12032</port>
+      <weight>1</weight>
+      </set1>
+    </data_servers>
+
+    <quest_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12005</port>
+      <weight>1</weight>
+      </set1>
+    </quest_servers>
+
+    <raid_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12050</port>
+      <weight>1</weight>
+      </set1>
+    </raid_servers>
+
+    <raid_chat_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12090</port>
+      <weight>1</weight>
+      </set1>
+    </raid_chat_servers>
+
+    <raid_data_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12100</port>
+      <weight>1</weight>
+      </set1>
+    </raid_data_servers>
+
+    <global_chat_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12020</port>
+      <weight>1</weight>
+      </set1>
+    </global_chat_servers>
+
+    <!-- サーバ全体の現況 0:メンテ中 1:通常運営中 -->
+    <state>1</state>
+
+  </host>
+
+
+</XML>
