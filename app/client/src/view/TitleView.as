@@ -71,7 +71,7 @@ package view
             _stage = stage;
             _ctrl = TitleCtrl.instance;
 
-            _copyRight.text =   "Copyright 2010 TECHWAY All Rights Reserved. "+"ver"+Unlight.VERSION+"_d";
+            _copyRight.text =   "Copyright 2019 CPA All Rights Reserved. "+"ver"+Unlight.VERSION+"_d";
             _copyRight.styleName = "FeatInfoLabel";
             _copyRight.width = 490;
             _copyRight.height = 30;
