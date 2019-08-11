@@ -63,6 +63,14 @@
       </set1>
     </raid_data_servers>
 
+    <raid_rank_servers>
+      <set1>
+      <name>localhost</name>
+      <port>12070</port>
+      <weight>1</weight>
+      </set1>
+    </raid_rank_servers>
+
     <global_chat_servers>
       <set1>
       <name>localhost</name>
